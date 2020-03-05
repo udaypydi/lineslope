@@ -34,6 +34,6 @@ for (let i = 0 ; i < points.length; i ++) {
 Object.keys(slopeMapper).forEach(key => {
     if (slopeMapper[key] > 2) {
         const [m, b] = key.split(',');
-        console.log(`(${m}, ${b})`);
+        console.log(`(m=${m}, b=${b})`);
     }
 })
