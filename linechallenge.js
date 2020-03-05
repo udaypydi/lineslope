@@ -16,6 +16,8 @@ function findLine(point1, point2) {
     
 }
 
+// edit these points for new test cases
+
 const points = [{ x: 0, y: 0 }, { x: 1, y: 1 }, { x: 3, y: 3 }, { x: 2, y: 2 }];
 
 for (let i = 0 ; i < points.length; i ++) {
